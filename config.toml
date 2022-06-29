@@ -1,9 +1,7 @@
-socialbaseURL = "https://sarperygt.netlify.app/"
+socialbaseURL =
 languageCode = "en-us"
 title = "İsmail Sarper YİĞİT"
 theme = "sustain"
-
-homepage = "https://sarperygt.netlify.app/"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
@@ -27,12 +25,6 @@ homepage = "https://sarperygt.netlify.app/"
   RSS           = "/index.xml"
 
 ## Main Menu
-
-[[menu.main]]
-name = "Home"
-weight = 100
-identifier = "home"
-url = "/"
 [[menu.main]]
   name = "About"
   weight = 100
