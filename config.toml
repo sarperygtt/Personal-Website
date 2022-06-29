@@ -1,0 +1,42 @@
+socialbaseURL = "https://sarperygt.netlify.app/"
+languageCode = "en-us"
+title = "İsmail Sarper YİĞİT"
+theme = "sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/profile.png"
+  author = "İsmail Sarper YİĞİT"
+  description = "İsmail Sarper YİĞİT's Personal Website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "sarperygtt"
+  Email         = "sarperygt@gmail.com"
+  Twitter       = "sarperygt"
+  LinkedIn      = "sarperygt"
+  Instagram     = "sarperygt"
+  Linktree      = "sarperygt"
+  RSS           = "/index.xml"
+
+## Main Menu
+[[menu.main]]
+  name = "About"
+  weight = 100
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "Portfolio"
+  identifier = "portfolio"
+  weight = 200
+  url = "/portfolio/"
+[[menu.main]]
+  name = "CV"
+  identifier = "cv"
+  weight = 300
+  url = "/cv/"
