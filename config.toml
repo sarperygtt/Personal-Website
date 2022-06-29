@@ -2,6 +2,7 @@ socialbaseURL = "https://sarperygt.netlify.app/"
 languageCode = "en-us"
 title = "İsmail Sarper YİĞİT"
 theme = "sustain"
+
 homepage = "https://sarperygt.netlify.app/"
 
 [permalinks]
